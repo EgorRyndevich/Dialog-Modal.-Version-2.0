@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__wrapper {
+    width: 1080px;
+    height: 665px;
+    background: url(../img/background.png);
+    background-color: #FF8577;
+}
+
+.header__title {
+    text-align: end;
+    font-size: 32px;
+    margin-top: 97px;
+    margin-right: 52px;
+    color: #fff;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__container {
+    width: 699px;
+    height: 305px;
+    background-color:#fff;
+    border-radius: 16px;
+}
+
+.modal__section {
+    margin-top: 54px;
+    margin-left: 40px;
+
+}
+.modal__subject { 
+    font-size: 24px;
+}
+
+.modal__text {
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.modal__text-p {
+    color: #F22F2A;
+}
+
+.modal__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 619px;
+    height: 56px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.modal__buttons-canel {
+    width: 168px;
+    height: 56px;
+    background-color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.modal__buttons-hide_me {
+    width: 177px;
+    height: 56px;
+    background-color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.modal__buttons-yes {
+    width: 242px;
+    height: 56px;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 6px;
+    border-color: #000;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 24px;
+}
+
+.footer__button {
+    font-style: inherit;
+    width: 177px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #FF8577;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-width: 1.5px;
+    border-style: solid;
+}  
+
+.footer__img {
+    object-fit:contain;
+    margin-left: 18px;
+}
+
+.footer__text {
+    font-size: 16px;
+    margin-left: 15px;
+    color: #fff;
+}
+
